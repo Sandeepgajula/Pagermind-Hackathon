@@ -1,0 +1,39 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+playwright-report/
+test-results/
+
+# Generated evaluation output
+backend/evals/reports/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+
+
+supabase/
+.*lock
+test_supa.py
+*.log
+
